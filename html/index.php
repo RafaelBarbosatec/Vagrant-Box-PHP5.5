@@ -227,7 +227,7 @@ img {
 
 </head>
 <body paddingwidth="0" paddingheight="0" bgcolor="#d1d3d4"  style="padding-top: 0; padding-bottom: 0; padding-top: 0; padding-bottom: 0; background-repeat: repeat; width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;" offset="0" toppadding="0" leftpadding="0">
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <table style="top:50%; margin-top:-320px; position:absolute;" width="100%" border="0" cellspacing="0" cellpadding="0">
   <tbody>
     <tr>
       <td><table width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff" style="font-family:helvetica, sans-serif;" class="MainContainer">
@@ -328,7 +328,7 @@ img {
                                           $dir = scandir("/etc/apache2/sites-enabled/");
                                           foreach($dir as $arquivo){
                                                   if(substr($arquivo, -5) == '.conf' && substr($arquivo, 0, -5) != '000-default'){
-                                                          echo "<a class=\"link4\" href='http://" . substr($arquivo, 0, -5) . "'>http://" . substr($arquivo, 0, -5) . "</a>";
+                                                          echo "<a target=\"_blank\" class=\"link4\" href='http://" . substr($arquivo, 0, -5) . "'>http://" . substr($arquivo, 0, -5) . "</a>";
                                                   }
                                           }                                      
                                          
