@@ -256,6 +256,7 @@ img {
   <tbody>
     <tr>
       <td valign="top" width="60"><img src="images/logo.png" alt="Logo" title="Logo" width="60" height="60" data-max-width="100"></td>
+
       <td width="10" valign="top">&nbsp;</td>
       <td valign="middle" style='vertical-align: middle;'>
                           <div class='contentEditableContainer contentTextEditable'>
@@ -266,7 +267,19 @@ img {
                         </td>
     </tr>
   </tbody>
+
 </table>
+
+</td>
+      <td valign="top" width="90" class="spechide">&nbsp;</td>
+      <td valign="middle" style='vertical-align: middle;' >
+                          <div class='contentEditableContainer contentTextEditable'>
+                            <div class='contentEditable' style='text-align: right;'>
+                              <a href="/phpmyadmin" class='link1' ><img src="images/phpmyadmin.png" alt="Logo" title="Logo" width="60" height="60" data-max-width="100"></a>
+                            </div>
+                          </div>
+                        </td>
+    </tr>
 
   </tbody>
 </table></td>
@@ -362,7 +375,6 @@ img {
       </td>
     </tr>
   </tbody>
-
 </table>
       </div>
       <div class="movableContent" style="border: 0px; padding-top: 0px; position: relative;">
@@ -370,6 +382,8 @@ img {
   <tbody>
     <tr>
       <td height="5"></td>
+      
+
     </tr>
     <tr>
       <td style="background:#F6F6F6; border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
