@@ -341,7 +341,7 @@ img {
                                           $dir = scandir("/etc/apache2/sites-enabled/");
                                           foreach($dir as $arquivo){
                                                   if(substr($arquivo, -5) == '.conf' && substr($arquivo, 0, -5) != '000-default'){
-                                                          echo "<a target=\"_blank\" class=\"link4\" href='http://" . substr($arquivo, 0, -5) . "'>http://" . substr($arquivo, 0, -5) . "</a>";
+                                                          echo "<a target=\"_blank\" class=\"link4\" href='http://" . substr($arquivo, 0, -5) . "'>http://" . substr($arquivo, 0, -5) . "</a> <br>";
                                                   }
                                           }                                      
                                          
