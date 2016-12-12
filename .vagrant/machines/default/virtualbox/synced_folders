@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/":{"guestpath":"/var/www","hostpath":"/home/rafael/Ambientes/php","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/rafael/Ambientes/php","disabled":false,"__vagrantfile":true}}}
